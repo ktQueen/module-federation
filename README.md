@@ -98,7 +98,7 @@ npm run dev:all
 - **作为 Host（开发用）**：通过路由加载 remote 组件（`cd middle && npm run dev:host`，端口 5174）
 - **作为 Remote（联调用）**：暴露 `./Home` 组件给 shell（`cd middle && npm run preview:remote`，端口同样是 5174）
 - **路由配置（Host 模式）**：
-  - `/` → 默认重定向到 `/button`
+  - `/` → /Home
   - `/button` → remote/Button（路由模式）
   - `/card` → remote/Card（路由模式）
   - `/table` → remote/Table（路由模式）
