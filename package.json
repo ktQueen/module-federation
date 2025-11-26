@@ -1,0 +1,11 @@
+{
+  "name": "module-federation-nested",
+  "version": "1.0.0",
+  "description": "三级嵌套 Module Federation 项目 - 路由模式",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd remote && npm install && cd ../middle && npm install && cd ../shell && npm install",
+    "dev:all": "./start-dev.sh",
+    "start": "./start-dev.sh"
+  }
+}
